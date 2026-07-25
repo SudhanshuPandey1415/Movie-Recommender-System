@@ -1,0 +1,37 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python caching & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large data files
+similarity.pkl
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
+
+# Streamlit local settings & secrets
+.streamlit/secrets.toml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
